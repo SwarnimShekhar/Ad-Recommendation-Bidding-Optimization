@@ -1,0 +1,59 @@
+# ---- Python & Virtual Environment ----
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Logs & Cache ----
+logs/
+*.log
+*.out
+*.err
+
+# ---- Jupyter Notebook Checkpoints ----
+notebooks/.ipynb_checkpoints/
+__pycache__/
+
+# ---- Data & Model Artifacts ----
+data/raw/
+data/interim/
+data/processed/
+!data/processed/sample_data.csv  # Keep a small sample file
+models/
+*.h5
+*.pt
+*.pkl
+*.joblib
+
+# ---- API & Server Files ----
+deployment/*.sqlite3
+deployment/*.db
+instance/
+
+# ---- Config & Secrets ----
+config.yaml
+secrets.yaml
+*.env
+
+# ---- Compiled & OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE & Editor Files ----
+.vscode/
+*.swp
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ---- Docker & Deployment (Since Docker is not included) ----
+deployment/Dockerfile
+deployment/
+
+# ---- Misc ----
+*.zip
+*.tar
+*.gz 
